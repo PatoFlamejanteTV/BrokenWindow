@@ -9,10 +9,10 @@ Public Class Form1
             Try
                 Process.Start(filePath)
             Catch ex As Exception
-                MessageBox.Show("Erro ao tentar executar o arquivo: " & ex.Message)
+                MessageBox.Show("BWTest1, by the BrokenWindow open-source project.")
             End Try
         Else
-            MessageBox.Show("O arquivo 'bwver' não foi encontrado.")
+            MessageBox.Show("BWTest1, by the BrokenWindow open-source project.")
         End If
     End Sub
 End Class
